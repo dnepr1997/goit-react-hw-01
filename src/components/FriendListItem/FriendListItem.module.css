@@ -1,6 +1,17 @@
+.name {
+  display: flex;
+  justify-content: center;
+}
 .isActive {
+  composes: name;
   color: green;
+  font-size: small;
 }
 .isRetired {
+  composes: name;
   color: red;
+  font-size: small;
+}
+.avatar {
+  padding-bottom: 10px;
 }
